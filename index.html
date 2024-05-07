@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #pla{
+        height:90px;
+        width:80px;
+       background-color: azure;
+       border-radius: 30px;
+    
+     
+
+
+    }
+    #pla:hover{
+        cursor: pointer;
+        background-image: radial-gradient(white,rgb(50, 20, 221));
+    }
+    #v{
+        background-image: linear-gradient(to left, rgb(235, 22, 199), rgb(219, 221, 228),rgb(245, 241, 30));
+       margin-left: 300px;
+       margin-right: 690px;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     
+       
+    }
+    #screen{
+       background-image: linear-gradient(to left, rgb(233, 240, 240),rgb(110, 111, 112));
+        height :100px;
+        margin-left: 300px;
+       margin-right: 690px;
+      
+     
+       border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+      font-size: 80px;
+      border-top: solid 20px;
+      border-bottom: solid 5px;
+     
+    }
+    #screen:hover{
+        background-image: linear-gradient(to left, rgb(32, 236, 236), rgb(238, 14, 189),rgb(224, 229, 236));
+    }
+        
+
+    #g{
+        margin-left: 300px;
+       margin-right: 750px;
+     
+    }
+   
+    #R{
+        margin-left: 300px;
+        background-color:orange;
+        margin-right: 550px;
+   
+    }
+    #Y{
+        background-image: linear-gradient(to right, rgb(42, 20, 236),rgb(235, 27, 27));
+    }
+ 
+    
+ @media only screen and (max-width :300px){
+    #pla{
+        height:42px;
+        width:32px;
+       background-color: azure;
+       border-radius: 14px;
+       font-size: 8px;
+
+    }
+    #screen{
+       background-image: linear-gradient(to left, rgb(233, 240, 240),rgb(110, 111, 112));
+        height :50px;
+        margin-left: 10px;
+       margin-right: 10px;
+      
+     
+       border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+      font-size: 35px;
+      border-top: solid 20px;
+      border-bottom: solid 5px;
+     text-align: center;
+    }
+    #v{
+        background-image: linear-gradient(to left, rgb(235, 22, 199), rgb(219, 221, 228),rgb(245, 241, 30));
+       margin-left: 10px;
+       margin-right: 10px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     
+     text-align: center;
+    }
+    #R{
+        margin-left: 10px;
+        background-color:orange;
+        margin-right: 2px;
+   font-size: 10px;
+    }
+    #g{
+        margin-left: 0px;
+       margin-right: 0px;
+     
+    }
+ }
+ @media only screen and (min-width:300px)and (max-width:500px){
+    #pla{
+        height:60px;
+        width:50px;
+       background-color: azure;
+       border-radius: 18px;
+       font-size: 10px;
+
+    }
+    #screen{
+       background-image: linear-gradient(to left, rgb(233, 240, 240),rgb(110, 111, 112));
+        height :65px;
+        margin-left: 20px;
+       margin-right: 20px;
+      
+     
+       border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+      font-size: 50px;
+      border-top: solid 20px;
+      border-bottom: solid 5px;
+      text-align: center;
+     
+    }
+    #v{
+        background-image: linear-gradient(to left, rgb(235, 22, 199), rgb(219, 221, 228),rgb(245, 241, 30));
+       margin-left: 20px;
+       margin-right: 20px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+    
+text-align: center;
+       
+    }
+    #R{
+        margin-left: 2px;
+        background-color:orange;
+        margin-right: 2px;
+   font-size: 10px;
+    }
+    #g{
+        margin-left: 0px;
+       margin-right: 0px;
+     
+    }
+    #R{
+        font-size:20px;
+    }
+ }
+ 
+    @media only screen and (min-width:500px) {
+        #pla{
+        height:90px;
+        width:80px;
+       background-color: azure;
+       border-radius: 30px;
+       font-size: 17px;
+
+    }
+    #screen{
+       background-image: linear-gradient(to left, rgb(233, 240, 240),rgb(110, 111, 112));
+        height :100px;
+        margin-left: 20px;
+       margin-right: 20px;
+      
+     
+       border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+      font-size: 70px;
+      border-top: solid 20px;
+      border-bottom: solid 5px;
+      text-align: center;
+     
+    }
+    #v{
+        background-image: linear-gradient(to left, rgb(235, 22, 199), rgb(219, 221, 228),rgb(245, 241, 30));
+       margin-left: 20px;
+       margin-right: 20px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+    
+text-align: center;
+       
+    }
+    #R{
+        margin-left: 2px;
+        background-color:orange;
+        margin-right: 2px;
+   font-size: 10px;
+    }
+    #g{
+        margin-left: 0px;
+       margin-right: 0px;
+     
+    }
+    #R{
+        font-size:25px;
+        text-align: center;
+    }
+ }
+    
+</style>
+
+
+<body>
+  
+    <DIV ID="Y">
+
+    <div id="screen">
+
+    </div>
+
+    <DIV id="v">
+    <button id="pla" onclick="func(1)"><h1>1</h1></button>
+    <button id="pla" onclick="func(2)"><h1>2</h1></button>
+    <button id="pla" onclick="func(3)"><h1>3</h1></button>
+    <button id="pla" onclick="operation('+')"><h1>+</h1></button>
+    <br>
+    <button id="pla" onclick="func(4)"><h1>4</h1></button>
+    <button id="pla" onclick="func(5)"><h1>5</h1></button>
+     <button id="pla" onclick="func(6)"><h1>6</h1></button>
+     <button id="pla" onclick="operation('-')"><h1>-</h1></button>
+     <br>
+     <button id="pla" onclick="func(7)"><h1>7</h1></button>
+     <button id="pla" onclick="func(8)"><h1>8</h1></button>
+     <button id="pla" onclick="func(9)"><h1>9</h1></button>
+     <button id="pla"  onclick="operation('*')"><h1>*</h1></button>
+   
+     <br>
+     <button id="pla"   onclick="func(0)"><h1>0</h1></button>
+     <button id="pla"  onclick="operation('/')"><h1>/</h1></button>
+     <button id="pla"  onclick="operation('=')"><h1>=</h1></button>
+     <button id="pla"  onclick="operation('c')"><h2>clear</h2></button>
+    </DIV>
+
+    <div id="g" style="margin-top: 10px;">
+  <audio controls autoplay>
+            <source src="music.wav" type="audio/wav">
+            <source src="music.wav" type="audio/wav">
+          Your browser does not support the audio element.
+          </audio> 
+      
+    </div>
+     <div ID="R">
+        <h2>MUSICAL CALCULATOR</h2>
+
+     </div>
+    </DIV>
+
+
+    <script>
+    
+let a=0;
+let b=0;
+let op='';
+function func(x){
+    var scree=document.getElementById("screen");
+   b=10*b+x;
+    
+    if(op)
+    scree.innerHTML=a+op+b;
+    else 
+    scree.innerHTML=b;
+
+}
+
+function operation (x){
+    if(x=='+'){
+        if(!op){
+op='+';
+a=b;
+b=0;
+var scre=document.getElementById("screen");
+scre.innerHTML=a+op;
+    }
+    else {
+    a=operate_this(a,b,op);
+    b=0;
+    op='+';
+    var scre=document.getElementById("screen");
+scre.innerHTML=a+op;
+}
+
+
+}
+else if(x=='-'){
+    if(!op){
+ op='-';
+ a=b;
+b=0;
+var scre=document.getElementById("screen");
+scre.innerHTML=a+op;
+    }
+    else {
+        a=operate_this(a,b,op);
+        b=0;
+        op='-';
+        var scre=document.getElementById("screen");
+scre.innerHTML=a+op;
+    }
+
+
+}
+else if(x=='*'){
+    if(!op){
+
+        op='*';
+        a=b;
+        b=0;
+        var scre=document.getElementById("screen");
+scre.innerHTML=a+op;
+    }
+  
+    else {
+        a=operate_this(a,b,op);
+        b=0;
+        op='*';
+        var scre=document.getElementById("screen");
+scre.innerHTML=a+op;
+    }
+
+}
+
+else if(x=='/'){
+    if(!op){
+
+        op='/';
+        a=b;
+      b=0;
+      var scre=document.getElementById("screen");
+scre.innerHTML=a+op;
+    }
+    else{
+        a=operate_this(a,b,op);
+        b=0;
+        op='/';
+        var scre=document.getElementById("screen");
+scre.innerHTML=a+op;
+    }
+
+}
+else if(x=='c'){
+    a=0;
+    b=0;
+    let scree=document.getElementById("screen");
+    scree.innerHTML=a;
+    op='';
+}
+else if(x=='=')
+{
+    b=operate_this(a,b,op);
+    let scree=document.getElementById("screen");
+    scree.innerHTML=b;
+    op='';
+    
+}
+
+}
+function operate_this(a,b,op){
+   
+    if(op=="+"){
+        return a+b;
+    }
+    else if(op=="-"){
+        return a-b;
+
+    }
+    else if(op=="*"){
+        return a*b;
+    }
+    else if(op==""){
+        return b;
+    }
+    else {
+        return a/b;
+    } 
+
+}
+
+    </script>
+</body>
+
+</html>
